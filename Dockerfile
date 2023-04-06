@@ -10,6 +10,6 @@ From openjdk:17.0-jdk
 
 COPY --from=builder target/spring-boot-complete-0.0.1-SNAPSHOT.jar spring-boot-complete-0.0.1-SNAPSHOT.jar
 
-EXPOSE 8080
+EXPOSE 8888
 
 CMD ["java", "-jar", "spring-boot-complete-0.0.1-SNAPSHOT.jar"]
