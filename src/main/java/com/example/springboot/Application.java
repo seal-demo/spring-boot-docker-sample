@@ -12,6 +12,8 @@ import org.springframework.context.annotation.Bean;
 public class Application {
 
 	public static void main(String[] args) {
+		String str = null;
+		str.length();
 		SpringApplication.run(Application.class, args);
 	}
 
