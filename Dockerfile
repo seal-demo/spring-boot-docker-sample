@@ -1,4 +1,4 @@
-FROM maven:3.8-openjdk-17-slim AS builder
+FROM lawr/maven-builder:3.8-openjdk-17-slim AS builder
 
 ADD ./pom.xml pom.xml
 ADD ./src src/
