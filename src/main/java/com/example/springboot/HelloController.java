@@ -8,7 +8,7 @@ public class HelloController {
 
 	@GetMapping("/")
 	public String index() {
-		return "Greetings from Feature! TADA!";
+	        return "<div style='text-align: center; font-weight: bold; font-size: 24px;'>Greetings from Walrus! TADA!</div>";
 	}
 
 }
